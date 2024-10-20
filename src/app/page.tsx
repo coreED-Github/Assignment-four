@@ -6,11 +6,12 @@ import Footer from "./components/Footerr";
 
 export default function Home() {
   return (
-<div>
+<div className="bg-gradient-to-br white min-h-screen">
   <Navbar/>
   <Card/>
-  <CardTwo/>
+  <CardTwo/> 
   <Footer/>
+ 
 </div>
   );
 }

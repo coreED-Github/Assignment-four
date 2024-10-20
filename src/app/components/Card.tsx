@@ -1,18 +1,17 @@
 "use client"
 import React from "react"
-
 const Card = () => {
     const productImages = [
-     "https://assets.ajio.com/medias/sys_master/root/20230804/163c/64cc0468a9b42d15c98a1af5/-473Wx593H-466417359-white-MODEL.jpg",
-    " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBCOmUx-4Kvp9aarbQlMxd4TW5DcawMLve_fdoKW7_hFNYVWeXNcXsdoK-NcU88wvkaSI&usqp=CAU",
-     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAyEaOeTt9jWtMMW3RO-xvIad5WJqCWBnWmQ&s" 
-];
+        "https://assets.ajio.com/medias/sys_master/root/20230804/163c/64cc0468a9b42d15c98a1af5/-473Wx593H-466417359-white-MODEL.jpg",
+        " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBCOmUx-4Kvp9aarbQlMxd4TW5DcawMLve_fdoKW7_hFNYVWeXNcXsdoK-NcU88wvkaSI&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAyEaOeTt9jWtMMW3RO-xvIad5WJqCWBnWmQ&s"
+    ];
 
     return (
         <div className='relative text-center p-2'>
             <div className='absolute inset-0'
                 style={{
-                    backgroundImage:`url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmMsSuuilIxSrUgDPQ6CAhC7p6nwnyeTBS7w&s')`,
+                    backgroundImage: `url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmMsSuuilIxSrUgDPQ6CAhC7p6nwnyeTBS7w&s')`,
                     backgroundPosition: 'center',
                     zIndex: 0,
                     opacity: 0.7,
@@ -37,27 +36,28 @@ const Card = () => {
                                 <span className="text-slate-900 mr-3 uppercase text-xs">Category</span>
                                 <p className="text-lg font-bold text-blue-700 truncate block capitalize">Branded Shoes</p>
                                 <h2 className="text-cyan-900 bold">
-                                 Card  {index + 1}   
+                                    Card  {index + 1}
                                 </h2>
                                 <p className="text-blue-900">Experience the perfect blend of comfort and style with our casual sneakers,
-                                     ideal for everyday adventures and a touch of fashion flair.</p>
+                                    ideal for everyday adventures and a touch of fashion flair.</p>
 
                                 <div className="flex justify-center">
                                     <p className="text-lg font-bold text-cyan-700 my-3 cursor-auto">
-                                    $20
+                                        $20
                                     </p>
                                     <del>
 
                                         <br />
                                         <p className="text-sm text-blue-700 cursor-auto ml-2">{""} $25</p>
                                     </del>
-                                  
+
                                 </div>
                             </div>
                         </a>
                     </div>
                 ))}
             </section>
-</div>
-           )}
-           export default Card
+        </div>
+    )
+}
+export default Card
