@@ -14,13 +14,9 @@ export default function Footer() {
                 <div className='flex justify-center space-x-5 transition-transorm duration-500 ease-in-out transform hover:scale-105'>
 
                     <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" alt="facebook logo" />
+                    <img src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png" alt="linkdin logo" />
+                    <img src="https://cdn-icons-png.flaticon.com/128/4494/4494477.png" alt="twitter logo" />
 
-                    <a href="https://www.linkedin.com/in/saira-nasir-935bb1230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='blank' rel='nofollow noopener'>
-                        <img src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png" alt="linkdin logo" />
-                    </a>
-                    <a href="https://twitter.com" target='blank' rel='nofollow noopener'>
-                        <img src="https://cdn-icons-png.flaticon.com/128/4494/4494477.png" alt="twitter logo" />
-                    </a>
                 </div>
                 <h3 className='text-center hover:text-cyan-600 text-blue-900 font-medium mb-8'>Created By Saira Nasir.
                     Practice the concepts you've learned in class through hands-on exercises.
