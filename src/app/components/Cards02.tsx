@@ -1,6 +1,5 @@
 "use client"
 import React from "react"
-
 const CardTwo = () => {
     const productImages = [
       "https://rukminim2.flixcart.com/image/850/1000/l572ufk0/shoe/o/j/w/-original-imagfxf6swwfjqpw.jpeg?q=90&crop=false",
@@ -32,13 +31,14 @@ className="container mx-auto py-10 flex flex-col md:flex-row items-center gap-4"
             <img
                 src={productImages[index]}
                 alt={`Product ${index + 1}`}
+               
                 className="h-96 w-full object-cover rounded-t-xl"
             />
             <div className="justiy-center">
                 <span className="text-slate-700 mr-3 uppercase text-xs">Best Selection</span>
                 <h2 className="text-lg font-bold text-red-500 truncate block capitalize">Classic Shoes</h2>
                 
-                <p className="text-red-700">Let's experience the best style and comfort with One Degree. Here innovation meets best manufacturing.
+                <p className="text-red-700">Let experience the best style and comfort with One Degree. Here innovation meets best manufacturing.
                      They have the best shoes for all in many sizes.</p>
                 <div className="flex justify-center">
                     <p className="text-lg font-bold text-red-600 my-3 cursor-auto">

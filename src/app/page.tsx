@@ -3,7 +3,7 @@ import Card from "./components/Card";
 import CardTwo from "./components/Cards02";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footerr";
-
+import Image from "next/image";
 export default function Home() {
   return (
 <div className="bg-gradient-to-br white min-h-screen">

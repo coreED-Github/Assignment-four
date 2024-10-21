@@ -19,7 +19,7 @@ export default function Navbar() {
 
                                 <p className="text-sm text-white hidden lg:block md:block" >
                                     {" "}
-                                    You can order your favourite shoes...
+                                    You can order your favourite shoes.
                                     <span className="text-yellow-200">Going Now</span>
                                 </p>
 

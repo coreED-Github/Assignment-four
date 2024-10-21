@@ -31,6 +31,7 @@ const Card = () => {
                             <img
                                 src={productImages[index]}
                                 alt={`Product ${index + 1}`}
+                               
                                 className="h-80 w-full object-cover rounded-t-xl"
                             />
                             <div className=" justify-center">
